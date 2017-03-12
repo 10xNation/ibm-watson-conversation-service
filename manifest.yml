@@ -1,0 +1,20 @@
+---
+declared-services:
+  # Conversation Service
+  Conversation-Demo:
+    label: conversation
+    plan: free
+  # Speech to Text Service
+  Speech to Text-Demo:
+    label: speech_to_text
+    plan: standard
+  # Text to Speech
+  Text to Speech-Demo:
+    label: text_to_speech
+    plan: standard
+applications:
+  # Application name
+- name: xxxxxxxxxxxxxxx
+  command: npm start
+  path: .
+  memory: 512M
