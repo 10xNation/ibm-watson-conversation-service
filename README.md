@@ -1,4 +1,4 @@
-# Smart Image Recognition w/ IBM Watson
+# Smart Chatbot w/ IBM Watson
 
 A conversational service built on IBM Watson using a Natural Language classifier to determine the intent of conversational commands.
 
